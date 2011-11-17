@@ -1,0 +1,5 @@
+name,description,url,image,lat,lon
+Metro, WMATA Red line metro station (<a href="http://www.wmata.com/rider_tools/pids/showpid.cfm?station_id=4"> next arrivals </a>), http://www.wmata.com/rail/station_detail.cfm?station_id=4, http://dl.dropbox.com/u/4234369/gain/wmata.png, 38.902771, -77.039169
+Metro, WMATA Blue and Orange line metro station (<a href="http://www.wmata.com/rider_tools/pids/showpid.cfm?station_id=38"> next arrivals </a>), http://www.wmata.com/rail/station_detail.cfm?station_id=38, http://dl.dropbox.com/u/4234369/gain/wmata.png, 38.901478, -77.041816
+Bike Share, Bike Share Station (<a href="http://www.capitalbikeshare.com/station_map"> full map</a>), http://www.capitalbikeshare.com, http://dl.dropbox.com/u/4234369/gain/bikeshare.png, 38.900283, -77.043128
+Global Adaptation Institute,Our offices are located at 1747 Pennsylvania Avenue NW Suite 1125 Washington DC 20006,www.globalai.org, http://dl.dropbox.com/u/4234369/gain/logo%20white.jpg, 38.899604, -77.041200
