@@ -1,0 +1,15 @@
+Repository with test doing maps with TileMill. Also hosting the iframes from MapBox on gh-pages branch.
+
+So far:
+
+-Contact
+
+Attempt to make a location map for the Global Adaptation Institute, with metro stations, bikes and other important landmarks.
+
+-Matrix
+
+World map coloring countries by their Matrix quadrant on gain.globalai.org/matrix in 2010.
+
+-Ladron
+
+Test para poner una marca en cada participante del reto del Ladron de Cerebros.
