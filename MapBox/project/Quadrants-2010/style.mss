@@ -2,7 +2,7 @@
 
 #countries {
   ::outline {
-    line-color: #000;
+    line-color: #050505;
     line-width: 2;
     line-join: round;
   }
@@ -13,7 +13,7 @@
 @green: #33cc66;
 @yellow: #FFFF00 ;
 @red: #e00 ;
-@blue: #0000FF ;
+@blue: #0000ff ;
 @grey: #CCCCCC;
 			
 #countries [ISO_A3='AFG']{ polygon-fill: 	@grey	; }
