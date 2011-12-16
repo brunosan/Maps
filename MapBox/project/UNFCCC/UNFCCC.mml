@@ -6,15 +6,15 @@
     85.05112877980659
   ],
   "center": [
-    -66.79687499999999,
-    29.53522956294847,
+    -71.3671875,
+    23.885837699862,
     2
   ],
   "format": "png",
   "interactivity": {
     "layer": "countries",
-    "template_teaser": "GAIN Index 2010 for {{{name}}}</br>: <p>\n{{{quad}}} quadrant. \n<p> {{{read}}} Readiness\n<p>{{{vul}}} Vulnerability. <p>\nUNFCCC PSI reports {{{proj}}} pilot projects.",
-    "template_full": "",
+    "template_teaser": "GAIN Index 2010 for {{{name}}}</br>: <p>\n{{{quad}}} quadrant. \n<p> {{{read}}} Readiness\n<p>{{{vul}}} Vulnerability. <p>\nUNFCCC PSI reports {{{proj}}} pilot projects.<p>\n<img width=\"150\" src=\"https://github.com/brunosan/Maps/raw/master/UNFCC-PSI/{{{quad}}}.png\"/>\nhttps://github.com/brunosan/Maps/raw/master/UNFCC-PSI/{{{quad}}}.png",
+    "template_full": "GAIN Index 2010 for {{{name}}}</br>: <p>\n{{{quad}}} quadrant. \n<p> {{{read}}} Readiness\n<p>{{{vul}}} Vulnerability. <p>\nUNFCCC PSI reports {{{proj}}} pilot projects.<p>\n<img width=\"150\" src=\"https://github.com/brunosan/Maps/raw/master/UNFCC-PSI/{{{quad}}}.png\"/>",
     "template_location": ""
   },
   "minzoom": 0,
