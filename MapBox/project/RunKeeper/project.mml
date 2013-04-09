@@ -1,0 +1,57 @@
+{
+  "bounds": [
+    -77.2983,
+    38.7556,
+    -76.8589,
+    39.1656
+  ],
+  "center": [
+    -77.0525,
+    38.9022,
+    11
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "tracks2",
+    "template_teaser": "{{{name}}}",
+    "fields": [
+      "name"
+    ]
+  },
+  "minzoom": 4,
+  "maxzoom": 17,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "points.mss"
+  ],
+  "Layer": [
+    {
+      "geometry": "linestring",
+      "extent": [
+        -117.886981,
+        -33.925328,
+        31.073648,
+        51.501144
+      ],
+      "id": "tracks2",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/brunosan/projects/RunKeeper-map/runkeeper-data/runs/tracks.shp",
+        "id": "tracks2",
+        "project": "RunKeeper",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "tracks2"
+    }
+  ],
+  "scale": 1,
+  "metatile": 1,
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
+  "name": "RunKeeper runs",
+  "description": "",
+  "attribution": "",
+  "legend": "Tracks heatmap for all my runs around DC from 2009 to 2012."
+}

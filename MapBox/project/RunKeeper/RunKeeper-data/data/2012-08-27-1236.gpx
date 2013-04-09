@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx
+  version="1.1"
+  creator="RunKeeper - http://www.runkeeper.com"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1">
+<trk>
+  <name><![CDATA[Running 8/27/12 12:36 pm]]></name>
+  <time>2012-08-27T15:36:01Z</time>
+<trkseg>
+<trkpt lat="38.898912000" lon="-77.039809000"><ele>35.5</ele><time>2012-08-27T15:36:01Z</time></trkpt>
+<trkpt lat="38.898859000" lon="-77.039721000"><ele>35.5</ele><time>2012-08-27T15:36:08Z</time></trkpt>
+<trkpt lat="38.898775000" lon="-77.039648000"><ele>35.5</ele><time>2012-08-27T15:36:14Z</time></trkpt>
+<trkpt lat="38.898694000" lon="-77.039630000"><ele>35.5</ele><time>2012-08-27T15:36:18Z</time></trkpt>
+</trk>
+</gpx>

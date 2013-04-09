@@ -1,0 +1,70 @@
+{
+  "bounds": [
+    -160.752,
+    12.3829,
+    -65.4785,
+    62.5933
+  ],
+  "center": [
+    -79.8047,
+    37.1603,
+    1
+  ],
+  "format": "png",
+  "interactivity": {
+    "layer": "mcma",
+    "template_teaser": "{{{runners}}} runners from {{{Location}}} ({{{Men}}} Men and {{{Female}}} Women). \nMost common age is {{{Age_50}}} (10% above {{{Age_90}}}). Most common time is {{{Time_50}}} hours.\n(10% below {{{Time_10}}} hours).",
+    "fields": [
+      "runners",
+      "Location",
+      "Genders",
+      "fastest"
+    ]
+  },
+  "minzoom": 0,
+  "maxzoom": 11,
+  "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+  "Stylesheet": [
+    "style.mss"
+  ],
+  "Layer": [
+    {
+      "id": "countries",
+      "name": "countries",
+      "srs": "+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0.0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs +over",
+      "geometry": "polygon",
+      "Datasource": {
+        "file": "http://mapbox-geodata.s3.amazonaws.com/natural-earth-1.4.0/cultural/10m-admin-0-countries.zip",
+        "type": "shape"
+      }
+    },
+    {
+      "geometry": "point",
+      "extent": [
+        -157.969779,
+        -41.171989,
+        146.427719,
+        61.599439999999994
+      ],
+      "id": "mcma",
+      "class": "",
+      "Datasource": {
+        "file": "/Users/brunosan/projects/MCM/MCM-a.csv",
+        "id": "mcma",
+        "project": "MCM",
+        "srs": ""
+      },
+      "srs-name": "autodetect",
+      "srs": "",
+      "advanced": {},
+      "name": "mcma"
+    }
+  ],
+  "scale": 1,
+  "metatile": 2,
+  "_basemap": "http://a.tiles.mapbox.com/v3/mapbox.mapbox-streets.jsonp",
+  "name": "MCM  runners",
+  "description": "Testing",
+  "legend": "Size is number of runners [1,10,50,200,500]. Color according to fastest 10% [2,3.3,3.7,4] h.",
+  "attribution": ""
+}
